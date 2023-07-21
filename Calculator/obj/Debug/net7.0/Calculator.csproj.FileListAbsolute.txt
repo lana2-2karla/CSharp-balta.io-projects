@@ -1,0 +1,15 @@
+/home/allana/code-challengs/CSharp/Calculator/bin/Debug/net7.0/Calculator
+/home/allana/code-challengs/CSharp/Calculator/bin/Debug/net7.0/Calculator.deps.json
+/home/allana/code-challengs/CSharp/Calculator/bin/Debug/net7.0/Calculator.runtimeconfig.json
+/home/allana/code-challengs/CSharp/Calculator/bin/Debug/net7.0/Calculator.dll
+/home/allana/code-challengs/CSharp/Calculator/bin/Debug/net7.0/Calculator.pdb
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/Calculator.csproj.AssemblyReference.cache
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/Calculator.AssemblyInfoInputs.cache
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/Calculator.AssemblyInfo.cs
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/Calculator.csproj.CoreCompileInputs.cache
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/Calculator.dll
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/refint/Calculator.dll
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/Calculator.pdb
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/Calculator.genruntimeconfig.cache
+/home/allana/code-challengs/CSharp/Calculator/obj/Debug/net7.0/ref/Calculator.dll
