@@ -1,0 +1,15 @@
+/home/allana/code-challengs/CSharp/TextEditor/bin/Debug/net7.0/TextEditor
+/home/allana/code-challengs/CSharp/TextEditor/bin/Debug/net7.0/TextEditor.deps.json
+/home/allana/code-challengs/CSharp/TextEditor/bin/Debug/net7.0/TextEditor.runtimeconfig.json
+/home/allana/code-challengs/CSharp/TextEditor/bin/Debug/net7.0/TextEditor.dll
+/home/allana/code-challengs/CSharp/TextEditor/bin/Debug/net7.0/TextEditor.pdb
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/TextEditor.csproj.AssemblyReference.cache
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/TextEditor.AssemblyInfoInputs.cache
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/TextEditor.AssemblyInfo.cs
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/TextEditor.csproj.CoreCompileInputs.cache
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/TextEditor.dll
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/refint/TextEditor.dll
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/TextEditor.pdb
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/TextEditor.genruntimeconfig.cache
+/home/allana/code-challengs/CSharp/TextEditor/obj/Debug/net7.0/ref/TextEditor.dll
