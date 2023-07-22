@@ -4,7 +4,7 @@
     {
         static void Main(string[] args) 
         {
-            Soma();
+            Divisao();
         }
     
         static void Soma() 
@@ -57,6 +57,31 @@
             }
         }
     
+        static void Divisao()
+        {
+            Console.Clear();
+
+            Console.WriteLine("Primeiro valor: ");
+            string? oneValue = Console.ReadLine();
+
+            Console.WriteLine("Segundo valor: ");
+            string? secondValue = Console.ReadLine();
+
+            Console.WriteLine("");
+             
+            // retorna true se o valor for nulo ou uma string vazia
+            if (!string.IsNullOrWhiteSpace(oneValue) && !string.IsNullOrWhiteSpace(secondValue))
+            {
+                float OneValueNumber = float.Parse(oneValue);
+                float SecondValueNumber = float.Parse(secondValue);
+               
+                float division = OneValueNumber / SecondValueNumber;
+
+                Console.WriteLine($"O resultado da divisão é: {division}");
+                Console.ReadKey();
+            }
+        }
+
     }
     
 }
