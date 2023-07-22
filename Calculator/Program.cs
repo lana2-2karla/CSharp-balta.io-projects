@@ -12,16 +12,16 @@
             Console.Clear();
 
             Console.WriteLine("Primeiro valor: ");
-            string? OneValue = Console.ReadLine();
+            string? oneValue = Console.ReadLine();
 
             Console.WriteLine("Segundo valor: ");
-            string? SecondValue = Console.ReadLine();
+            string? secondValue = Console.ReadLine();
              
             // retorna true se o valor for nulo ou uma string vazia
-            if (!string.IsNullOrWhiteSpace(OneValue) && !string.IsNullOrWhiteSpace(SecondValue))
+            if (!string.IsNullOrWhiteSpace(oneValue) && !string.IsNullOrWhiteSpace(secondValue))
             {
-                float OneValueNumber = float.Parse(OneValue);
-                float SecondValueNumber = float.Parse(SecondValue);
+                float OneValueNumber = float.Parse(oneValue);
+                float SecondValueNumber = float.Parse(secondValue);
                
                 float Summation = OneValueNumber + SecondValueNumber;
 
