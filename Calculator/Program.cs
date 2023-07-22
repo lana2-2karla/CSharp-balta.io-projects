@@ -9,6 +9,8 @@
     
         static void Menu()
         {
+            Console.Clear();
+            
             Console.WriteLine("O que deseja fazer?");
 
             Console.WriteLine("1 - Soma;");
@@ -16,13 +18,22 @@
             Console.WriteLine("3 - Divisão;");
             Console.WriteLine("4 - Multiplicação;");
 
-            Console.WriteLine("----------------");
+            Console.WriteLine("------------------");
+            Console.WriteLine("");
             Console.WriteLine("Selecione uma opção: ");
 
             string? option = Console.ReadLine();
 
-
+            switch (option)
+            {
+                case "1": Soma(); break;
+                case "2": Subtracao(); break;
+                case "3": Divisao(); break;
+                case "4": Multiplicacao(); break;
+                default: Menu(); break;
+            }
         }
+
         static void Soma() 
         {
             Console.Clear();
@@ -45,6 +56,7 @@
 
                 Console.WriteLine($"O resultado da soma é: {Summation}");
                 Console.ReadKey();
+                Menu();
             }
         }
     
@@ -70,6 +82,7 @@
 
                 Console.WriteLine($"O resultado da subtração é: {subtraction}");
                 Console.ReadKey();
+                Menu();
             }
         }
     
@@ -95,6 +108,7 @@
 
                 Console.WriteLine($"O resultado da divisão é: {division}");
                 Console.ReadKey();
+                Menu();
             }
         }
 
@@ -120,6 +134,7 @@
 
                 Console.WriteLine($"O resultado da multiplicação é: {multiplication}");
                 Console.ReadKey();
+                Menu();
             }
         }
     }
