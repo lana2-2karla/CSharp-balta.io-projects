@@ -1,0 +1,15 @@
+/home/allana/code-challengs/CSharp/StopWatch/bin/Debug/net7.0/StopWatch
+/home/allana/code-challengs/CSharp/StopWatch/bin/Debug/net7.0/StopWatch.deps.json
+/home/allana/code-challengs/CSharp/StopWatch/bin/Debug/net7.0/StopWatch.runtimeconfig.json
+/home/allana/code-challengs/CSharp/StopWatch/bin/Debug/net7.0/StopWatch.dll
+/home/allana/code-challengs/CSharp/StopWatch/bin/Debug/net7.0/StopWatch.pdb
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/StopWatch.csproj.AssemblyReference.cache
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/StopWatch.GeneratedMSBuildEditorConfig.editorconfig
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/StopWatch.AssemblyInfoInputs.cache
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/StopWatch.AssemblyInfo.cs
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/StopWatch.csproj.CoreCompileInputs.cache
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/StopWatch.dll
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/refint/StopWatch.dll
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/StopWatch.pdb
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/StopWatch.genruntimeconfig.cache
+/home/allana/code-challengs/CSharp/StopWatch/obj/Debug/net7.0/ref/StopWatch.dll
