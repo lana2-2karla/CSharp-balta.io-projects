@@ -4,6 +4,11 @@
     {
         static void Main(string[] args) 
         {
+            Soma();
+        }
+    
+        static void Soma() 
+        {
             Console.Clear();
 
             Console.WriteLine("Primeiro valor: ");
@@ -22,8 +27,6 @@
 
                 Console.WriteLine($"O resultado da soma é: {Summation}");
             }
-
-            
         }
     }
     
