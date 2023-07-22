@@ -18,6 +18,9 @@
 
             string? data = Console.ReadLine();
 
+            if (data == "0")
+                System.Environment.Exit(0);
+
             if (!String.IsNullOrEmpty(data))
             {
                 data = data.ToLower();
@@ -29,16 +32,11 @@
 
                 if (type == 'm')
                     multiplier = 60;
-                
-                if (time == 0)
-                    System.Environment.Exit(0);
 
                 Start(time * multiplier);
                 
             }
                 
-
-            
         }
 
         static void Start(int time)
