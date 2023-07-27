@@ -47,14 +47,38 @@
 
             string text = "";
 
+            // faça.. enquanto..
             do
             {
                 text += Console.ReadLine();
                 text += Environment.NewLine;
             } while (Console.ReadKey().Key != ConsoleKey.Insert);
 
-            Console.Write(text);
+            Save(text);
             
         }
+    
+        static void Save(string text)
+        {
+            Console.Clear();
+            Console.WriteLine("Qual caminho para salvar o arquivo?");
+
+            var path = Console.ReadLine();
+
+
+            if (!string.IsNullOrEmpty(path))
+            {
+                // esse using abre e fecha a execuxão de qualquer coisa automaticamente
+                using (var file = new StreamWriter(path)) {
+                    file.Write(text);
+                }
+
+                Console.WriteLine($"Arquivo {path} salvo com sucesso");
+                Console.ReadLine();
+                Menu();
+            }
+
+        }
+   
     }
 }
