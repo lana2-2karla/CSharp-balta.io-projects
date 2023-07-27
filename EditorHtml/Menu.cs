@@ -25,9 +25,8 @@ namespace EditorHtml
         {
             Console.Write("+");
             for (int i = 0; i <= 30; i++)
-            {
                 Console.Write("-");
-            }
+            
             Console.Write("+");
             Console.Write("\n");
         }
@@ -36,13 +35,11 @@ namespace EditorHtml
         {
             Console.Write("|");
 
-                for (int i = 0; i <= 30; i++)
-                {
+            for (int i = 0; i <= 30; i++)
                 Console.Write(" ");
-                }
 
-                Console.Write("|");
-                Console.Write("\n");
+            Console.Write("|");
+            Console.Write("\n");
         }
     }
 }
