@@ -36,7 +36,23 @@
 
         static void Open() 
         {
-            
+            Console.Clear();
+            Console.WriteLine("Qual caminho do arquivo?");
+            string? path = Console.ReadLine();
+
+            if (!string.IsNullOrEmpty(path))
+            {
+                // esse using abre e fecha a execuxão de qualquer coisa automaticamente
+                using (var file = new StreamReader(path)) {
+                    string text = file.ReadToEnd();
+                    Console.Clear();
+                    Console.WriteLine(text);
+                }
+
+                Console.WriteLine("");
+                Console.ReadLine();
+                Menu();
+            }
         }
 
         static void Create()
