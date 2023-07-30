@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace EditorHtml
 {
     public static class Editor
@@ -15,7 +17,16 @@ namespace EditorHtml
 
         public static void Start()
         {
-            
+            var file = new StringBuilder();
+
+            do
+            {
+                file.Append(Console.ReadLine());
+                file.Append(Environment.NewLine);
+            } while (Console.ReadKey().Key != ConsoleKey.Escape);
+
+            Console.WriteLine("----------");
+            Console.WriteLine("Deseja salvar o arquivo?");
         }
     }
 }
